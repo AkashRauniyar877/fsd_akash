@@ -4,33 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online-Form</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <form>
-        <h2>ONLINE STUDENT INFORMATION</h2>
+    <header>
+      <center> <img src="https://3.bp.blogspot.com/-SQ06xsQEAes/WPdEV5Z5_RI/AAAAAAAAOVc/6h-PFJg3ewIRXGt88UccVwZpdOsYr92MgCLcB/s1600/k.png" class="logo" alt="ABES Logo"></center> 
+         <body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+        <li> <a href="#home">Home </a></li>
+             <li> <a href="#news">News </a></li>
+             <li> <a href="#contact">Contact </a></li>
+             <li> <a href="#about">About</a></li>
+             
+            
+        </ul>
+        
+        </nav>
+
+
+
+    </header> 
+    <main>
+      <form class="form">
+        <div class="box">
+      <h2>ONLINE STUDENT INFORMATION</h2>
         <Hr>
-            <lebel>Main Course:
-                <input name="course" >
-                <select id="myDropDon" class="form-control">
+            <lebel>Main Course</lebel>
+            <span style="color: red;">*</span>
+                <div class="col-md-4">
+                <select id="myDropDown" class="form-control" >
                     <option>--Select--</option>
                     <option value="1">1 B.Tech</option>
                 <option value="2">2 MBA</option>
                 <option value="3">3 M.Tech</option>
+                <option value="7"> 7 MCA</option>
                 </select>
-                
+                </div>
+            <br>
+            <lebel >Name
+                            <span style="color: red;">*</span>
+                <input type="text" id="name">
             </lebel>
             <br>
+            <br>
+            <lebel >Father's Name
+                            <span style="color: red;">*</span>
+                <input type="text" id="Fa-name">
+            </lebel>
+            <br>
+            <br>
+            <lebel >Mobile
+                            <span style="color: red;">*</span>
+                <input type="number" id="Mobile">
+            </lebel>
+            <br>
+            <br>
+            <lebel >E-Mail Id
+                            <span style="color: red;">*</span>
+                <input type="text" id="email">
+            </lebel>
+            <br>
+            <br>
+            <lebel >OTP
+                            <span style="color: red;">*</span>
+                <input type="number" id="otp">
+            </lebel>
+            <br>
+            <button id="verify">Verify</button>
+            <br>
+            <button id="resend" >Resend</button>
+            <br>
+            <br>
+            <lebel >Password
+                            <span style="color: red;">*</span>
+                <input type="password" id="password">
+            </lebel>
+            <br>
+            <br>
+            <lebel > Re Type Password
+                            <span style="color: red;">*</span>
+                <input type="password" id="repassword">
+            </lebel>
+            <br>
+            <br>
+            <button id="submit">Submit</button>
+            <br>
+           <lebel class="click">
+            If already registered
+            <a href="" title="login" style="text-decoration: none;">Click Here</a>
+           </lebel>
 
 
 
-
-
-
-
-
+</div>
     </form>
+</main>
+<br>
+<footer>
+<div class="foot">
+    <h3 id="privacy">Privacy Policy | <a style="text-decoration: none;" id="disclaimer">Disclaimer</a></h4>
+    <h3 id="privacy1">Powered By eKdanta Infosoft Pvt. Ltd.,Noida</h3>
+</div>
 
 
+</footer>
 
 
 
