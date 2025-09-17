@@ -1,0 +1,22 @@
+#box {
+    background-color: rgb(0,0,255);
+    color: #ffffff;
+    
+
+}
+
+#para {
+    
+    color: rgb(251, 249, 249);
+    font-size: 20px;
+
+}
+
+.heading{
+    color: rgb(255,0,0);
+    text-align: center;
+    text-decoration: dotted;
+    font: weight 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
