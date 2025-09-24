@@ -1,0 +1,43 @@
+.image[alt]{
+
+    border: 8px ;
+    border-color: rgb(247, 247, 8);
+    border-style: solid;
+
+}
+.image{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    
+    
+}
+.nature{
+     height: 200px;
+    width: 300px;
+    display: inline-block;
+}
+
+
+#text{
+    background-color: black;
+    padding-left: 12px;
+    margin: 10px;
+}
+#instagram-link{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+}
+.para{
+
+    border: 2px solid black;
+    padding-left: 50px ;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aqua;
+    color: rgb(249, 93, 3);
+}
