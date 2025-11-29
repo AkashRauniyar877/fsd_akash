@@ -1,0 +1,112 @@
+body{
+    background-color: aquamarine;
+}
+
+.div1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin: 50px;
+    gap: 20px;
+    
+
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 15px grey;
+    .blur{
+        filter: blur(4px);
+    }
+    .bright{
+        filter: brightness(250%);
+
+    }
+    .contrast{
+        filter: contrast(200%);
+    }
+    .grayscale{
+        filter: grayscale(100%);
+    }
+    .huerotate{
+        filter: hue-rotate(180deg);
+    }
+    .invert{
+        filter: invert(100%);
+    }
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 15px grey;
+    max-width: 100%;
+    
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid rgb(197, 233, 38);
+    box-shadow: 5px 5px 15px grey;
+}
+
+.img4{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid rgb(97, 226, 64);
+    box-shadow: 5px 5px 15px grey;
+}
+
+.img5{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid rgb(222, 41, 41);
+    box-shadow: 5px 5px 15px grey;
+}
+
+.div2{
+ /* width: 200px;
+ height: 50px;
+    background-color: rgb(41, 134, 222);
+    transition-property: width;
+    transition-duration:10px ;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+    border-radius: 10px; */
+     width: 100px;
+  height: 50px;
+  background-color: rgb(41, 134, 222);
+  border-radius: 10px;
+  transition: width 2s ease-in-out;
+  cursor: pointer;
+    
+  
+}
+
+.img8{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid rgb(41, 134, 222);
+    box-shadow: 5px 5px 15px grey;
+    margin-bottom: auto;
+    margin-right: auto;
+    transform: rotate(20deg);
+    /* transform: skew(20deg);
+    transform: scale(1.5); */
+}

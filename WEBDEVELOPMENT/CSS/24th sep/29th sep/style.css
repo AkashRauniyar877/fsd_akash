@@ -1,0 +1,45 @@
+body{
+
+
+
+ /* background-image: linear-gradient( 75deg, green, yellow, pink, brown, rgb(16, 223, 192));
+ height: 100vh; */
+ /* background-image: linear-gradient(  rgba(255, 0, 150, 0.6), rgba(0, 204, 255, 0.5));
+ background-size: cover;
+ height: 100vh; */
+
+ /* background-image: radial-gradient(circle, rgb(224, 30, 143, 0.6), rgba(0,204,255,0.7));
+ height: 100vh; */
+
+ background-image: conic-gradient(from 90deg, rgba(224, 30, 143, 0.6), rgba(0,204,255,0.7), rgb(224, 30, 143, 0.6));
+border-radius: 50%;
+
+
+}
+div{
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    background-image: conic-gradient(red 10%, yellow 20%, green 30%, blue 40%, purple 50%, red 60%, yellow 70%, green 80%, blue 90%, purple 100%);
+}
+
+
+#title{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+.hii{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
