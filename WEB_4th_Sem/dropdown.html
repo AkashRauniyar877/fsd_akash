@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown and Range Input Example</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <h4>Choose your profession:</h4>
+            <label for="profession">Select your profession:</label>
+            <select name="profession" id="profession">
+                <option>Select your option</option>
+                <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="engineer">Engineer</option>
+            <option value="doctor">Doctor</option>
+        </select>
+        <button type="submit">Submit</button>
+    </div>
+    <hr>
+    <div>
+        <label for="vol">Select your volume Level</label>
+        <!-- <input type="range" id="vol" min="0" max="100" value="20" name="volume" step="10"> -->
+         <input type="range" id="vol" min="0" max="100" value="20" name="volume" >
+        <button type="submit">Submit</button>
+    </div>
+     <hr>
+    <!-- textarea -->
+     <div>
+        <label for="message">Enter your message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea><br>
+        <button type="submit">Submit</button>
+     </div>
+    </form>
+
+
+
+
+</body>
+</html>
