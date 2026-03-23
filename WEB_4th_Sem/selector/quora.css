@@ -1,0 +1,19 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    background-color: aqua;
+
+}
+
+h1, h3{
+    color: #b61148;
+}
+#login{
+    background-color: blueviolet;
+}
+#signup{
+    background-color: blue;
+    color: white;
+}
+.upvote{
+    background-color: greenyellow;
+}
