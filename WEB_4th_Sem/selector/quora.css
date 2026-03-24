@@ -1,6 +1,6 @@
 *{
     font-family:'Courier New', Courier, monospace;
-    background-color: aqua;
+    /* background-color: aqua; */
 
 }
 
@@ -17,3 +17,84 @@ h1, h3{
 .upvote{
     background-color: greenyellow;
 }
+ /* descendent selector */
+ .post a{
+    color:purple;
+    background-color: yellow;
+ }
+ nav ul li a{
+    color: hotpink;
+ }
+
+ /* sibling combinator */
+ p + h3{
+    text-decoration: underline;
+ }
+ .upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+ }
+
+ /* child selector */
+ div > input{
+    background-color: rgb(194, 234, 87);
+ }
+
+ /* attribute selector */
+    input[type="text"]{
+    color: red;
+    }
+    input[type="password"]{
+        color: orange;
+    }
+
+   /* pseudo class selector */
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    h3:hover{
+        text-decoration: wavy underline;
+    }
+
+    button:active{
+        background-color: hotpink;
+        color:black;
+    }
+
+    p:active{
+        background-color: lightblue;
+    }
+
+    input[type=radio]:checked{
+        color: red;
+        font-weight: bold;
+    }
+
+    div:nth-of-type(2){
+        background-color: lightgreen;
+    }
+
+    div:nth-of-type(3n){
+        background-color: lightcoral;
+    }
+
+  /* pseudo element selector */
+  h1::first-letter{
+    color: seagreen;
+  }
+    h1::first-line{
+        color: tomato;
+    }
+    p::first-line{
+        color: blue;
+    }
+
+    p::selection{
+        background-color: limegreen;
+    }
+
+    /* CSS Cascading order: */
+    
+   
