@@ -1,3 +1,7 @@
+ h3{
+        background-color: white !important;
+    }
+   
 *{
     font-family:'Courier New', Courier, monospace;
     /* background-color: aqua; */
@@ -96,5 +100,12 @@ h1, h3{
     }
 
     /* CSS Cascading order: */
-    
+    h3{
+        background-color: yellow;
+    }
+    h3{
+        background-color: aqua;
+    }
+
+    /* !important */
    
